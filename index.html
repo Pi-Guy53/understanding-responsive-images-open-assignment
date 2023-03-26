@@ -46,7 +46,7 @@
 			margin-top: 1.5em;
 			font-style: italic;
 			font-weight: 300;
-			color: #CC9B70;
+			color: hsl(28, 50%, 35%);
 			text-align: left;
 		}
 
@@ -70,7 +70,12 @@
 
 		figure.half {
 			width: 50%;
-			float: left;
+		}
+
+		.figure-grp {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+
 		}
 
 		.figure-grp+.figure-grp figure {
@@ -97,9 +102,11 @@
 
 		p {
 			color: #444;
-			max-width: 45em;
+			max-width: 65ch;
 			margin-left: auto;
 			margin-right: auto;
+
+			padding: 1rem;
 		}
 
 		img {
@@ -125,7 +132,9 @@
 		<p>Just down the street from the Starbucks Coffee Shop.</p>
 
 		<figure class="fw">
-			<img src="img/office-1.jpg" alt="office" width="3500" height="2334">
+			<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856263/IDMX268/office-1_jx2kcs.jpg"
+				srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856263/IDMX268/office-1_jx2kcs.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856263/IDMX268/office-1_jx2kcs.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856263/IDMX268/office-1_jx2kcs.jpg 1200w"
+				alt="office" width="3500" height="2334">
 			<figcaption>Join us today!</figcaption>
 		</figure>
 	</header>
@@ -145,31 +154,43 @@
 
 		<div class="figure-grp">
 			<figure class="half">
-				<img src="img/office-2.jpg" alt="office" width="3500" height="2334">
+				<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856273/IDMX268/office-2_gabvho.jpg"
+					srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856273/IDMX268/office-2_gabvho.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856273/IDMX268/office-2_gabvho.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856273/IDMX268/office-2_gabvho.jpg 1200w"
+					alt="office" width="3500" height="2334">
 			</figure>
 
 			<figure class="half">
-				<img src="img/office-3.jpg" alt="office" width="3500" height="2333">
-			</figure>
-		</div> <!-- end figure-grp -->
-
-		<div class="figure-grp">
-			<figure class="half">
-				<img src="img/office-8.jpg" alt="office" width="3500" height="2333">
-			</figure>
-
-			<figure class="half">
-				<img src="img/office-9.jpg" alt="office" width="3500" height="2333">
+				<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856280/IDMX268/office-3_ggjybf.jpg"
+					srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856280/IDMX268/office-3_ggjybf.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856280/IDMX268/office-3_ggjybf.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856280/IDMX268/office-3_ggjybf.jpg 1200w"
+					alt="office" width="3500" height="2333">
 			</figure>
 		</div> <!-- end figure-grp -->
 
 		<div class="figure-grp">
 			<figure class="half">
-				<img src="img/office-1.jpg" alt="office" width="3500" height="2334">
+				<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856290/IDMX268/office-8_qdvxmb.jpg"
+					srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856290/IDMX268/office-8_qdvxmb.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856290/IDMX268/office-8_qdvxmb.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856290/IDMX268/office-8_qdvxmb.jpg 1200w"
+					alt="office" width="3500" height="2333">
 			</figure>
 
 			<figure class="half">
-				<img src="img/office-2.jpg" alt="office" width="3500" height="2334">
+				<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856292/IDMX268/office-9_ffgftw.jpg"
+					srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856292/IDMX268/office-9_ffgftw.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856292/IDMX268/office-9_ffgftw.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856292/IDMX268/office-9_ffgftw.jpg 1200w"
+					alt="office" width="3500" height="2333">
+			</figure>
+		</div> <!-- end figure-grp -->
+
+		<div class="figure-grp">
+			<figure class="half">
+				<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856263/IDMX268/office-1_jx2kcs.jpg"
+					srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856263/IDMX268/office-1_jx2kcs.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856263/IDMX268/office-1_jx2kcs.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856263/IDMX268/office-1_jx2kcs.jpg 1200w"
+					alt="office" width="3500" height="2334">
+			</figure>
+
+			<figure class="half">
+				<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856273/IDMX268/office-2_gabvho.jpg"
+					srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856273/IDMX268/office-2_gabvho.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856273/IDMX268/office-2_gabvho.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856273/IDMX268/office-2_gabvho.jpg 1200w"
+					alt="office" width="3500" height="2334">
 			</figure>
 		</div> <!-- end figure-grp -->
 
@@ -179,12 +200,16 @@
 			facere officiis ullam, est quasi debitis voluptates corporis culpa!</p>
 
 		<figure>
-			<img src="img/office-4.jpg" alt="office" width="3500" height="2333">
+			<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856283/IDMX268/office-4_gk5nre.jpg"
+				srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856283/IDMX268/office-4_gk5nre.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_600/v1679856283/IDMX268/office-4_gk5nre.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_1200/v1679856283/IDMX268/office-4_gk5nre.jpg 1200w"
+				alt="office" width="3500" height="2333">
 			<figcaption>Post-its</figcaption>
 		</figure>
 
 		<figure class="fw">
-			<img src="img/office-5.jpg" alt="office" width="3500" height="2333">
+			<img src="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856285/IDMX268/office-5_ngqr4b.jpg"
+				srcset="https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856285/IDMX268/office-5_ngqr4b.jpg 300w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856285/IDMX268/office-5_ngqr4b.jpg 600w, https://res.cloudinary.com/usrngamesinc/image/upload/f_auto,q_auto,w_300/v1679856285/IDMX268/office-5_ngqr4b.jpg 1200w"
+				alt="office" width="3500" height="2333">
 			<figcaption>Laptop on table</figcaption>
 		</figure>
 	</main>
